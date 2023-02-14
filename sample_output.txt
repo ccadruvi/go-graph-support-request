@@ -1,0 +1,50 @@
+2023/02/14 16:02:09 Time taken to create group outside of AU:  284.771337ms
+2023/02/14 16:02:09 Group ID: 8011d2c1-5f61-4558-bba0-d75bf32a31dd, Group name: TestGroupOutsideOfAU2
+2023/02/14 16:02:26 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group '8011d2c1-5f61-4558-bba0-d75bf32a31dd@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:02:26 Group not found yet. Time elapsed: 17.309645059s
+2023/02/14 16:02:41 Time taken to successfully GET group created outside of an administrative unit:  32.156557895s
+2023/02/14 16:02:41 Time taken to create group in AU:  330.116295ms
+2023/02/14 16:02:41 Group ID: e08f1798-ca0c-485b-b358-f506168d0d2a, Group name: TestGroupInAU
+2023/02/14 16:02:58 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:02:58 Group not found yet. Time elapsed: 17.092265817s
+2023/02/14 16:03:21 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:03:21 Group not found yet. Time elapsed: 40.22122514s
+2023/02/14 16:03:44 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:03:44 Group not found yet. Time elapsed: 1m2.776036798s
+2023/02/14 16:04:06 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:04:06 Group not found yet. Time elapsed: 1m25.051837665s
+2023/02/14 16:04:29 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:04:29 Group not found yet. Time elapsed: 1m48.342276558s
+2023/02/14 16:04:52 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:04:52 Group not found yet. Time elapsed: 2m10.689843698s
+2023/02/14 16:05:15 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:05:15 Group not found yet. Time elapsed: 2m34.205953493s
+2023/02/14 16:05:38 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:05:38 Group not found yet. Time elapsed: 2m56.946122324s
+2023/02/14 16:06:00 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:06:00 Group not found yet. Time elapsed: 3m19.330568503s
+2023/02/14 16:06:23 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:06:23 Group not found yet. Time elapsed: 3m41.899021617s
+2023/02/14 16:06:46 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:06:46 Group not found yet. Time elapsed: 4m4.857156354s
+2023/02/14 16:07:09 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:07:09 Group not found yet. Time elapsed: 4m28.266652657s
+2023/02/14 16:07:32 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:07:32 Group not found yet. Time elapsed: 4m50.689159303s
+2023/02/14 16:07:55 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:07:55 Group not found yet. Time elapsed: 5m14.011496993s
+2023/02/14 16:08:18 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:08:18 Group not found yet. Time elapsed: 5m36.593287352s
+2023/02/14 16:08:40 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:08:40 Group not found yet. Time elapsed: 5m58.901618413s
+2023/02/14 16:09:03 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:09:03 Group not found yet. Time elapsed: 6m21.480777006s
+2023/02/14 16:09:25 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+...
+2023/02/14 16:12:27 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:12:27 Group not found yet. Time elapsed: 9m46.408677991s
+2023/02/14 16:12:50 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:12:50 Group not found yet. Time elapsed: 10m8.958922021s
+2023/02/14 16:13:13 GroupsClient.BaseClient.Get(): unexpected status 404 with OData error: ErrorInvalidGroup: The requested group 'e08f1798-ca0c-485b-b358-f506168d0d2a@c8338c33-d2cf-49ca-ad64-6bdb65931364' is invalid.
+2023/02/14 16:13:13 Group not found yet. Time elapsed: 10m31.876919834s
+2023/02/14 16:13:37 Time taken to successfully GET group when creating it inside of an administrative unit:  10m55.443022649s
