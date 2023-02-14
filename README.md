@@ -33,5 +33,5 @@ Example:
 ```txt
 Time taken to successfully GET group created outside of an administrative unit:  32.156557895s
 ...
-Time taken to successfully GET group when creating it inside of an administrative unit: 
+Time taken to successfully GET group when creating it inside of an administrative unit: 11m24.011496993s
 ```
