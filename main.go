@@ -3,6 +3,8 @@ package main
 import (
 	"context"
 	"log"
+	"net/http"
+	"net/http/httputil"
 	"os"
 	"time"
 
@@ -35,8 +37,30 @@ func init() {
 	auClient = msgraph.NewAdministrativeUnitsClient(tenantId)
 	groupsClient = msgraph.NewGroupsClient(tenantId)
 
+	requestLogger := func(req *http.Request) (*http.Request, error) {
+		if req != nil {
+			if dump, err := httputil.DumpRequestOut(req, true); err == nil {
+				log.Printf("%s\n", dump)
+			}
+		}
+		return req, nil
+	}
+
+	responseLogger := func(req *http.Request, resp *http.Response) (*http.Response, error) {
+		if resp != nil {
+			if dump, err := httputil.DumpResponse(resp, true); err == nil {
+				log.Printf("%s\n", dump)
+			}
+		}
+		return resp, nil
+	}
+
 	auClient.BaseClient.Authorizer = authorizer
 	groupsClient.BaseClient.Authorizer = authorizer
+	auClient.BaseClient.RequestMiddlewares = &[]msgraph.RequestMiddleware{requestLogger}
+	groupsClient.BaseClient.RequestMiddlewares = &[]msgraph.RequestMiddleware{requestLogger}
+	auClient.BaseClient.ResponseMiddlewares = &[]msgraph.ResponseMiddleware{responseLogger}
+	groupsClient.BaseClient.ResponseMiddlewares = &[]msgraph.ResponseMiddleware{responseLogger}
 
 	administrativeUnitName := "Test AU"
 	administrativeUnit := msgraph.AdministrativeUnit{DisplayName: &administrativeUnitName}
